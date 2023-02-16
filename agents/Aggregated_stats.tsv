@@ -1,0 +1,6 @@
+Age	Percent_Age	Home	Percent_Home	Work_School	Percent_Work	Leisure	Percent_Leisure	Transport_mode_residents	Percent_Transport_mode_residents	Transport_mode_visitors	Percent_Transport_mode_visitors
+0-6	4.4	inside	65	inside	65	inside	71	MIV	5	MIV	29
+7-17	11.2	outside	35	outside	35	outside	29	public_transport_other	17	public_transport_other	17
+18-35	26.5							public_transport_ubahn	32	public_transport_ubahn	32
+36-60	36.6							bicycle	17	bicycle	17
+61-100	18.5							foot	34	foot	5

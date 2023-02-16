@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Experiment_plan>
+	<Simulation id="home-work" sourcePath="grasbrook_model_main.gaml" finalStep="" experiment="Flow Simulation">
+	  <Parameters>
+	  </Parameters>
+	  <Outputs>
+	  </Outputs>
+	</Simulation>
+</Experiment_plan>

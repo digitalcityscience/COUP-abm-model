@@ -1,0 +1,26 @@
+Hour	university	highSchool	elementarySchool	creativeSpace	eventSpace	museum	library	religiousUse	healthCenter	communityCenter	daycare [SK]	sportsFacility	toiletPublic	medicalPractice	generalMedPractice
+1															
+2															
+3															
+4															
+5															
+6															
+7	10	0	0	0	0	0	0		0	0	0	0	7	0	0
+8	20	513	513	0	0	0	0		0	0	69	0	7	0	0
+9	30	513	513	0	0	0	0		58	0	69	0	7	3	8
+10	40	0	0	0	0	0	0		81	0	69	10	7	5	10
+11	50	0	0	0		56	2		71	3	0	25	7	6	9
+12	20	0	0	0		81	5		63	4	0	40	7	5	6
+13	20	0	0			99	5		51	4	0	41	7	3	0
+14	20	0	0			119	5		49	5	0	26	7	0	0
+15	20	0	0			131	5		55	5	0	22	7	0	0
+16	10	0	0			130	6		56	8		24	7	3	0
+17		0	0			116	8		48	11		28	7	5	8
+18		0	0			89	7		38	0		37	7	4	11
+19		0	0	0	0	0	0		0	0	0	48	7	2	4
+20		0	0	0	0	0	0		0	0	0	45	7	0	0
+21		0	0	0	0	0	0		0	0	0	28	7	0	0
+22		0	0	0	0	0	0		0	0	0	13	7	0	0
+23															
+24															
+average_spent	3	9	9	2	3	2	1		0.7	1.5	8	1.4	0.1	0.6	0.6
