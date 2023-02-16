@@ -1,0 +1,62 @@
+# COUP ABM MODEL
+
+Run this model in gama or from commandline via
+> #!/bin/bash
+> bash gama-headless ./simulation/config.xml ./results
+
+## INPUT DATA
+- Define your input folder in "global_values.gaml"
+- Provide a streets.geojson with all walkable paths that will serve as graph
+- Provide a amenities.geojson with POINT features describing your ameneties, using ALKIS codes for their functions.
+- Copy the "agents" folder to your input folder. 
+
+The amenity points must be snapped to the streets. 
+This repo might help you to setup your data right: https://github.com/digitalcityscience/COUP-rad-snapper-abm
+
+## Result
+The result file will be saved to your disk in the results folder.
+#### Result format
+
+```
+[
+    {
+        "agent": {
+            "id": "people_resident0",
+            "agent_age": "18-35",
+            "resident_or_visitor": "resident"
+        },
+
+        // paths and timesteps are related by index. NEEDS TO BE THIS FORMAT.
+        "timestamps": [510.0, 570.0, 630.0, 660.0, 720.0, 780.0, 840.0, 930.0, 990.0, 1020.0, 1140.0, 1170.0],
+        "path": [
+            ["10.018189210173293", "53.52636411058693"],
+            ["10.018010174355753", "53.5261839296929"],
+            ["10.017662402472656", "53.52582010313598"],
+            ["10.01749594008648", "53.52563569245469"],
+            ["10.017164410508157", "53.525266439983184"],
+            ["10.016851866787569", "53.52489134577459"],
+            ["10.016542632774671", "53.524515275061724"],
+            ["10.016242780437777", "53.523982787025105"],
+            ["10.016547271310381", "53.523688867583026"],
+            ["10.01622531554574", "53.523604977459755"],
+            ["10.015037726608679", "53.52320682738142"],
+            ["10.014394008826855", "53.523038795100966"]
+            ],
+
+        // 1 agent can have multiple trips.
+        "trips": [
+            {
+            "origin": [10.018189210173293, 53.52636411058693],
+            "destination": [10.014271596469307, 53.5230068407669],
+            "origin_building_id": null | "B45",
+            "destination_building_id": null | "B46",
+            "duration": 660.0,
+            "path_indexes": [0, 11],
+            "length": 494
+            }
+        ]
+    }
+]
+```
+
+
